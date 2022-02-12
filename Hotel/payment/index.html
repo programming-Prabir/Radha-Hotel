@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- this is css link  -->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Payment</title>
+</head>
+
+<body>
+    <header>
+        <form action="">
+            <h1>Payment Form</h1>
+            <p>Name : *
+                <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+            </p>
+            <p>Phone : *
+                <input type="number" name="number" id="number" placeholder="Enter Your Number" required>
+            </p>
+            <label for="" id="gender">
+                <span>Gender : *</span>
+                Male :<input type="radio" name="radio" id="radio" required>
+                Female :<input type="radio" name="radio" id="radio" required>
+                Other :<input type="radio" name="radio" id="radio" required>
+            </label>
+            <p>Address : *
+                <textarea name="address" id="address" cols="20" rows="5" required></textarea>
+            </p>
+            <p>Email : *
+                <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+            </p>
+            <p>Password : *
+                <input type="password" name="password" id="password" placeholder="Enter Your Password" required>
+            </p>
+            <p>Pin : *
+                <input type="number" name="pin" id="pin" placeholder="Enter Your Pin" required>
+            </p>
+            <p>Card Type: *
+                <select name="Select_a_Card_Type" id="Select_a_Card_Type" required>
+                    <option value="">
+                        <--- Select A Card Type-->
+                    </option>
+                    <option value="visa">
+                        Visa
+                    </option>
+                    <option value="mastercard">
+                        Master Card
+                    </option>
+                    <option value="rupay">
+                        Rupay
+                    </option>
+                </select>
+            </p>
+            <p>Card Number : *
+                <input type="number" name="card" id="card" placeholder="123-456-789" required>
+            </p>
+            <p>Expiration Date : *
+                <input type="date" name="exp" id="exp" placeholder="Enter Your Expiration Date" required>
+            </p>
+            <p>CVV : *
+                <input type="number" name="cvv" id="cvv" placeholder="Enter Your Expiration Date" required>
+            </p>
+            <p>
+                <input type="submit" value="Submit" required>
+            </p>
+        </form>
+    </header>
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
